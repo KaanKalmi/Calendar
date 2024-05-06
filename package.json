@@ -1,0 +1,27 @@
+{
+  "name": "webstore",
+  "version": "1.0.0",
+  "description": "Senbozuru webstore",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaanKalmi/Webstore.git"
+  },
+  "author": "Kaan K.",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/KaanKalmi/Webstore/issues"
+  },
+  "homepage": "https://github.com/KaanKalmi/Webstore#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.19.2",
+    "node": "^22.1.0",
+    "nodemon": "^3.1.0"
+  }
+}

@@ -3,6 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Senbozuru</title>
 </head>
 <body>
+<nav>
+    <picture>
+        <source srcset="/sources/Logo.png" type="image/avif">
+        <source srcset="/sources/Logo.png" type="image/webp">
+        <img src="/sources/Logo.png" height="75">
+    </picture>
+    <ul>
+        <li><a href="/sale" <% if ( current=='/sale' ) { %> class="active" <% }%>>Sale</a></li>
+        <li><a href="/men">Men</a></li>
+        <li><a href="/" <% if ( current=='/' ) { %> class="active" <% }%>>Home</a></li>
+        <li><a href="/women">Women</a></li>
+        <li><a href="/accessories">Accessories</a></li>
+    </ul>
+</nav>

@@ -1,3 +1,35 @@
-:root{
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300&display=swap');
 
+:root {
+    --bg:#fbf3f2;
+    --text:#110807;
+    --primary:#cb5443;
+    --secondary:#e79f95;
+    --accent:#e47565;
+    --shadow:0 2px 8px 2px rgba(19, 19, 19, 0.15);
+}
+
+.lato-bold {
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+}
+
+.lato-black {
+    font-weight: 900;
+    font-family: "Lato", sans-serif;
+}
+
+.lato-light-italic {
+    font-style: italic;
+    font-weight: 300;
+    font-family: "Lato", sans-serif;
+}
+
+
+body {
+    box-sizing: content-box;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
 }

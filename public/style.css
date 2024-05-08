@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300&display=swap');
-
+@import url(nav.css);
+@import url(footer.css);
 :root {
     --bg:#fbf3f2;
     --text:#110807;
@@ -29,7 +30,20 @@
 body {
     box-sizing: content-box;
     margin: 0;
-    font-family: "Lato", sans-serif;
     background-color: var(--bg);
     color: var(--text);
+    font-family: "Lato", sans-serif;
+}
+
+h2{
+text-align: center;
+}
+main{
+    margin-top: 12em;
+    margin-inline: 3em;
+    border: 5px solid var(--primary);
+    border-radius: 8px;
+    background-color: var(--primary);
+    height: 100vh;
+    color: var(--bg);
 }

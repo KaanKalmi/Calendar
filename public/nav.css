@@ -1,7 +1,10 @@
 nav {
+    position: fixed;
+    top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: var(--bg);
     box-shadow: var(--shadow);
     width: 100%;
 

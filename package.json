@@ -1,7 +1,7 @@
 {
-  "name": "webstore",
+  "name": "calendar",
   "version": "1.0.0",
-  "description": "Senbozuru webstore",
+  "description": "Calendar",
   "main": "server.js",
   "type": "module",
   "scripts": {
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KaanKalmi/Webstore.git"
+    "url": "git+https://github.com/KaanKalmi/Calendar.git"
   },
   "author": "Kaan K.",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/KaanKalmi/Webstore/issues"
+    "url": "https://github.com/KaanKalmi/Calendar/issues"
   },
-  "homepage": "https://github.com/KaanKalmi/Webstore#readme",
+  "homepage": "https://github.com/KaanKalmi/Calendar#readme",
   "dependencies": {
     "ejs": "^3.1.9",
     "express": "^4.19.2",
